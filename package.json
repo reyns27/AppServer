@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"turbo run dev",
-    "install":"npm i -E --workspace server",
-    "build":"turbo build",
+    "dev":"npx turbo run dev",
+    "build":"npx turbo build",
     "start":"node apps/server/dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +15,7 @@
     "packages/*",
     "apps/*"
   ],
-  "devDependencies": {
+  "dependencies": {
     "turbo": "^1.10.16"
   }
 }
