@@ -12,6 +12,7 @@
   "author": "Joel Reynoso",
   "license": "ISC",
   "workspaces": [
+    "packages/*",
     "apps/*"
   ],
   "devDependencies": {
